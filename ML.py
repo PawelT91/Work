@@ -1,6 +1,8 @@
 import xlrd
 import datetime
+import shutil
 from fileXL import *
+
 class ML(fileXL):
     def __init__(self,name_file):
         fileXL.__init__(self,name_file)

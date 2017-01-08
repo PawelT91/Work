@@ -1,5 +1,7 @@
 import re
 import os
+import shutil
+
 class fileXL:
     def __init__(self,name_file):
         self.name_file = name_file
